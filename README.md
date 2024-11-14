@@ -1,6 +1,6 @@
-# ResolutionSwitcher
+# ResolutionChanger
 
-A simple automatic **ResolutionSwitcher** application built in C# based on the detection of a specified running process.
+A simple automatic **ResolutionChanger** application built in C# based on the detection of a specified process.
 
 ## Features
 
