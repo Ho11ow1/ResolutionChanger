@@ -11,6 +11,7 @@ A simple automatic **ResolutionChanger** application built in C# based on the de
 
 ### Prerequisites
 
+- [nircmd.exe](https://www.nirsoft.net/utils/nircmd.html)
 - [.NET SDK](https://dotnet.microsoft.com/download) (version 8.0 or higher)
 - [Visual Studio](https://visualstudio.microsoft.com/) / [Visual Studio Code](https://code.visualstudio.com/)
 
