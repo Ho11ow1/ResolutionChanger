@@ -28,7 +28,12 @@ git clone https://github.com/Ho11ow1/ResolutionChanger
 cd ResolutionChanger/ResolutionChanger
 ```
 
-### 3. Restore the project dependencies:
+### 3. Move **nircmd.exe** into the same folder as **ResolutionChanger.exe**
+```bash
+Most likely `ResolutionChanger\ResolutionChanger\bin\Debug\net8.0`
+```
+
+### 4. Restore the project dependencies:
 ```bash
 dotnet restore
 ```
