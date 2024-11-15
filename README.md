@@ -11,7 +11,6 @@ A simple automatic **ResolutionChanger** application built in C# based on the de
 
 ### Prerequisites
 
-- [nircmd.exe](https://www.nirsoft.net/utils/nircmd.html)
 - [.NET SDK](https://dotnet.microsoft.com/download) (version 8.0 or higher)
 - [Visual Studio](https://visualstudio.microsoft.com/) / [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -36,8 +35,6 @@ dotnet restore
 ## Future Development
 
 - Allow users to define multiple processes and resolutions in the configuration file.
-- Add error handling and logging for better user experience.
-- Support for multiple monitors and different resolutions per monitor.
 
 ## Contributing
 
