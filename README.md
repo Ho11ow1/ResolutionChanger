@@ -1,11 +1,12 @@
 # ResolutionChanger
 
-A simple automatic **ResolutionChanger** application built in C# based on the detection of a specified process.
+A simple automatic **ResolutionChanger** application built in C# that detects a specified process and changes the screen resolution accordingly.
 
 ## Features
 
-- Automatically switches screen resolution when a specified process is detected.
+- Automatically switches screen resolution when a specified process (e.g... Notepad) is detected.
 - Easy to use and lightweight.
+- Supports customizable resolutions and processes in the future.
 
 ## Getting Started
 
@@ -32,10 +33,12 @@ cd ResolutionChanger/ResolutionChanger
 dotnet restore
 ```
 
+### Usage
+
+- The application runs continuously checking for the specified process (e.g... Notepad).
+- When the process is detected, it changes the screen resolution to the defined dimensions (1280x720).
+- If the process is not running, it reverts the resolution to the maximum supported (1920x1080).
+
 ## Future Development
 
-- Allow users to define multiple processes and resolutions in the configuration file.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+- Allow users to define multiple processes and resolutions in a configuration file.
