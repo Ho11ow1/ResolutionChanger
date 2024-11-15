@@ -2,7 +2,7 @@
 {
     public struct Constant
     {
-        public const string process = "notepad"; // ZenlessZoneZero
+        public const string process = "notepad"; // ZZZ
         //static readonly string command = "nircmd.exe setdisplay 1280 720 32 60";
         //static readonly string original = "nircmd.exe setdisplay 1920 1080 32 60";
 
